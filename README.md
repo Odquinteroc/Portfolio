@@ -6,7 +6,7 @@ This portfolio is created to store all data analysis, data science and data engi
 
 ### Data Exploratory
 
-* In this project we will take stats from certain videos of a channel of youtbe and we are going to analysis using pandas, matplotlib, seaborn, etc. Also we are going to take csv file from web and save it locally using the library urlib.
+* In this project we will take stats from certain videos of a youtube channel and we are going to analysis using pandas, matplotlib, seaborn, etc. Also we are going to take csv file from web and save it locally using the library urlib.
 * I inspected the data using the pandas, to open the data and create a DataFrame we used the function `raw = pandas.read_csv()` and save the data in a variable call row
 * I used the pandas function `raw.info` over the DataFrame we retrieve the information of each columns ( Data types, Null values, etc ) to realize what are our datatypes and what are the missing values.
 * I used the pandas function `raw.describe()` to generate a descriptive statistics
