@@ -1,6 +1,6 @@
 # Portfolio
 
-This portfolio is created to store all data analysis, data science and data engineer projects
+This portfolio is created to store all data analytics, data science, and data engineering projects. I also stored every software and language library I learned during my trip. I am a passionate student regarding the world of data.
 
 ## Pandas Analysis Project
 
