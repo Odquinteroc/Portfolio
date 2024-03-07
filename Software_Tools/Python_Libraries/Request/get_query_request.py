@@ -4,7 +4,7 @@ import pprint
 printer = pprint.PrettyPrinter()
 
 if __name__ == '__main__':
-    url = 'https://httpbin.org/get'
+    url = 'https://httpbin.org/get' #https://httpbin.org/get?Name=Oscar&Curse=Python this is how we query through the get request
     args ={'Name':'Oscar', 'Curse':'Python'}
     response = requests.get(url, params = args)
 
