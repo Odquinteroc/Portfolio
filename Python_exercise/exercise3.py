@@ -6,7 +6,7 @@ Notes/Constraints:
 
 def half_string(text: str )-> str:
     
-    new_text = str[:len(text)//2]
+    new_text = text[:len(text)//2]
     return new_text
 
 print(half_string('texto'))
