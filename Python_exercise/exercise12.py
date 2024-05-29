@@ -1,3 +1,7 @@
+'''
+write a code that retrive the first word of the string inside of the list
+'''
+
 x = ['HA NOI', 'THAI BINH', 'LANG SON', 'DA NANG']
 def get_first(string):
     return string.split()[0]

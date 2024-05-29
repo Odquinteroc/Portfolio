@@ -9,3 +9,18 @@ print'''
 my_dict = {'a': 9, 'b': 1, 'c': 12, 'd': 7}
 sorted_keys = sorted(my_dict, key=my_dict.get)
 print(sorted_keys)
+
+my_dict = {'a': 9, 'b': 1, 'c': 12, 'd': 7}
+sorted_keys = [key for value, key in sorted(zip(my_dict.values(), my_dict.keys()))]
+print(sorted_keys)
+
+my_dict = {'a': 9, 'b': 1, 'c': 12, 'd': 7}
+sorted_keys = sorted(my_dict.keys(), key=lambda k: my_dict[k])
+print(sorted_keys)
+
+from operator import itemgetter
+
+my_dict = {'a': 9, 'b': 1, 'c': 12, 'd': 7}
+sorted_keys = [k for k, v in sorted(my_dict.items(), key=itemgetter(1))]
+print(sorted_keys)
+

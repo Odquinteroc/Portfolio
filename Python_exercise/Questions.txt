@@ -1,0 +1,76 @@
+1. You are given an array prices where prices[i] is the price of a given stock on the ith day.
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return e.
+Example 1:
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell. Example 2:
+Input: prices = [7,6,4,3,1]
+Output: 0
+
+2. Sum all even numbers in a list called "nums" Return -1 if no valid even numbers are found
+
+3. Given a string of any length, return 50% or half of the given string.
+Notes/Constraints:
+• Should a given string have an odd number of letters, round down to the nearest number.
+
+4. Write a function named capitals. The function should take a single parameter. Your function should return a list of all the capital letters from a string that is passed into the function.
+
+5.  * Escribe un programa que muestre por consola (con un print) los
+ * números de 1 a 100 (ambos incluidos y con un salto de línea entre
+ * cada impresión), sustituyendo los siguientes:
+ * - Múltiplos de 3 por la palabra "fizz".
+ * - Múltiplos de 5 por la palabra "buzz".
+ * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+
+ 6.  * Escribe una función que reciba dos palabras (String) y retorne
+ * verdadero o falso (Bool) según sean o no anagramas.
+ * - Un Anagrama consiste en formar una palabra reordenando TODAS
+ *   las letras de otra palabra inicial.
+ * - NO hace falta comprobar que ambas palabras existan.
+ * - Dos palabras exactamente iguales no son anagrama.
+
+ 7.  * Escribe un programa que imprima los 50 primeros números de la sucesión
+ * de Fibonacci empezando en 0.
+ * - La serie Fibonacci se compone por una sucesión de números en
+ *   la que el siguiente siempre es la suma de los dos anteriores.
+ *   0, 1, 1, 2, 3, 5, 8, 13...
+
+ 8.  * Escribe un programa que se encargue de comprobar si un número es o no primo.
+ * Hecho esto, imprime los números primos entre 1 y 100.
+
+ 9.  * Crea una única función (importante que sólo sea una) que sea capaz
+ * de calcular y retornar el área de un polígono.
+ * - La función recibirá por parámetro sólo UN polígono a la vez.
+ * - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
+ * - Imprime el cálculo del área de un polígono de cada tipo.
+
+ 10.  * Crea un programa que invierta el orden de una cadena de texto
+ * sin usar funciones propias del lenguaje que lo hagan de forma automática.
+ * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+
+ 11.  * Crea un programa que cuente cuantas veces se repite cada palabra
+ * y que muestre el recuento final de todas ellas.
+ * - Los signos de puntuación no forman parte de la palabra.
+ * - Una palabra es la misma aunque aparezca en mayúsculas y minúsculas.
+ * - No se pueden utilizar funciones propias del lenguaje que
+ *   lo resuelvan automáticamente.
+
+ 12. write a code that retrive the first word of each string inside of the list
+ ['HA NOI', 'THAI BINH', 'LANG SON', 'DA NANG']
+
+13. Let’s say I give you a list saved in a variable: a = [[1, 4], [9, 16], [25, 36]]. Write one line of Python that takes this list a and makes a new list that contains [1, 4, 9, 16, 25, 36]'''
+
+14.Given a dictionary my_dict = {'a': 9, 'b': 1, 'c': 12, 'd': 7}. Write code to print out a list of sorted key based on their value. For example, in this case, the code should print out ['b', 'd', 'a', 'c']
+
+15.- Take two lists, say for example these two:
+
+	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+    
+    b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    
+and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes. 
+
+16. Write a function that accept a string as a single argument and print out whether that string is a palindrome. (A palindrome is a string that reads the same forwards and backwards.) For example, "abcddcba" is a palindrome, "1221" is also a palindrome.
+
+17. 
