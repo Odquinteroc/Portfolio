@@ -3,7 +3,7 @@
 Write a function named capitals. The function should take a single parameter. Your function should return a list of all the capital letters from a string that is passed into the function.
 '''
 
-def returnCapitalLetter (text: str) -> str:
+def returnCapitalLetter (text: str) -> list:
     '''
     lista = []
     for i in text:
